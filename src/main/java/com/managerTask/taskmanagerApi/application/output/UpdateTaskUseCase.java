@@ -4,7 +4,9 @@ import com.managerTask.taskmanagerApi.application.input.UpdateTaskInput;
 import com.managerTask.taskmanagerApi.domain.TaskId;
 import com.managerTask.taskmanagerApi.domain.TaskNotFoundException;
 import com.managerTask.taskmanagerApi.domain.TaskRepository;
+import org.springframework.stereotype.Service;
 
+@Service
 public class UpdateTaskUseCase {
 
     private final TaskRepository repository;
